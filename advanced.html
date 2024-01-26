@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <link rel="stylesheet" href="advanced.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- These are the links on the top right of the page -->
+        <div id="links" >
+            <img style="padding-right: 83%;" src="google_logo.png" width="100px">
+                <a href="index.html";>Search</a>
+                <a href="image.html";>Image</a>
+        </div>
+        <br>
+        <!-- This is the division for the entire advance search  -->
+        <div id = "search">
+            <p id="head">Advanced Search</p>
+            <br><br>
+            <p style="font-size: 19px;">Find pages with...</p>
+            <form action="https://google.com/search" method="GET">
+                <label>all these words:</label>
+                <input style="margin-left:100px;" class="adv" type="text" name="as_q">
+                <br><br>
+                <label>this exact word or phrase:</label>
+                <input style="margin-left:28px;" class="adv" type="text" name="as_epq">
+                <br><br>
+                <label>any of these words:</label>
+                <input style="margin-left:73px;" class="adv" type="text" name="as_oq">
+                <br><br>
+                <label>none of these words:</label>
+                <input style="margin-left:63px;" class="adv" type="text" name="as_eq">
+                <br><br>
+                <input id = "button" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>

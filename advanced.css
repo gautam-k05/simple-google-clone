@@ -1,0 +1,48 @@
+a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#links{
+    text-align: right;
+    font-family:arial;
+}
+
+#head{
+    font-size: 24px;
+    color: #d93025;
+}
+
+#search{
+    padding-left: 2%;
+    font-family:arial;
+    color: #333;
+}
+
+.adv{
+    
+    width: 50%;
+    height: 25px;
+    border: 1px solid #d9d9d9;
+}
+
+#button{
+    background-color: #4d90fe;
+    border-style: hidden;
+    border-radius: 2px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    border: #3079ed;
+    font-size: 11px;
+    float: left;
+    margin-left: 57%;
+    font-weight: bold;
+}

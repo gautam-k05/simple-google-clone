@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Links to be added on the top right -->
+        <div id="links">
+            <a href="index.html";>Search</a>
+            <a href="advanced.html";>Advanced</a>
+        </div>
+        <!-- Adding to Google images logo in the centre with the pre downloaded image -->
+        <div id="image">
+            <img src="google_image.png" width="275px"">
+        </div>
+        <br>
+        <!-- The main search bar and the buttons next to it -->
+        <div id="search">
+            <form action='https://www.google.com/search' method="GET">
+                <input type="hidden" name="tbm" value="isch">
+                <input id ="search-bar" type="text" name="q">
+                <br><br><br>
+                <input style="margin-left: 37%"  id="google" type="submit" value="Image Search">
+            </form>
+        </div>
+    </body>
+</html>
